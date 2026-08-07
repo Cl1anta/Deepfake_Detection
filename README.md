@@ -74,11 +74,21 @@ This study uses the **RVF10K (Real vs. Fake 10K)** dataset, containing $10,000$ 
 - **Backbone:** ImageNet-pretrained ResNet18 with frozen feature extractor (`requires_grad = False`).
 - **Classifier Head:** Custom Linear layer ($512 \rightarrow 2$).
 
+# Citations & References
+
+If you use this codebase, methodology, or experimental findings in your research or project, please cite this repository.
+
+---
+
+##  Repository Citation
+
+```bibtex
 @misc{reddy2026deepfake,
-  author = {Clianta Nagi Reddy},
-  title = {Deepfake Face Detection Using Convolutional Neural Networks: A Comparative Study},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub Repository},
+  author       = {Clianta Nagi Reddy},
+  title        = {Deepfake Face Detection Using Convolutional Neural Networks: A Comparative Study},
+  year         = {2026},
+  publisher    = {GitHub},
+  journal      = {GitHub Repository},
   howpublished = {\url{[https://github.com/your-username/deepfake-detection-cnn](https://github.com/your-username/deepfake-detection-cnn)}}
 }
+
